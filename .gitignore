@@ -1,2 +1,2 @@
-data/*
-src_data/*
+data/*.csv
+src_data/*.xlsx
