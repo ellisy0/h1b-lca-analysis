@@ -1,5 +1,4 @@
 import fileinput
-import glob
 
 path = 'data/'
 h1b_dep_fix_list = ['LCA_Disclosure_Data_FY2020_Q1.csv', 'LCA_Disclosure_Data_FY2020_Q2.csv', 'LCA_Disclosure_Data_FY2020_Q3.csv', 'LCA_Disclosure_Data_FY2020_Q4.csv', 'LCA_Disclosure_Data_FY2021_Q2.csv', 'LCA_Disclosure_Data_FY2021_Q4.csv']
