@@ -2,6 +2,14 @@
 
 Not sure if your H1-B [Labor Condition Application (LCA)](https://en.wikipedia.org/wiki/Labor_Condition_Application) statistics on your favorite visa info website is up-to-date? Too slow and tedious to look up each company's LCA data on your favorite visa info website? This project aims to solve these problems by providing a local, simple, easy-to-use, and up-to-date H1-B LCA data analysis tool. You decide if the data is up-to-date, by comparing the data in `src_data/` (listed below) to the current disclosure data from the [United States Department of Labor (DOL)](https://www.dol.gov/agencies/eta/foreign-labor/performance#dis) source files.
 
+## Quickstart
+
+Download the csv files in the release tab, open them in a fast text editor e.g. VSCode, and search for your company name!
+
+## I want more filters and options!
+
+Try it yourself by following the directions below.
+
 - `src_data_urls.txt`: The download links for the DOL data source files. Run `wget -P src_data/ -i src_data_urls.txt` to download all files to `src_data/`.
 - `src_data/`: All downloaded disclosure data source files from the DOL website are stored in this directory. Filenames and formats are kept as-is. All files prior to 2020 (e.g. `H-1B_Disclosure_Data_FY2019.xlsx`) are not considered because they are sufficiently outdated & have completely different fields in the xlsx file. Current files in this directory are listed below:
   - `LCA_Disclosure_Data_FY2023_Q3.xlsx`: Decision date from 2022-10-01 to 2023-06-30, in order.
